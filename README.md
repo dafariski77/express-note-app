@@ -1,6 +1,6 @@
 # API Documentation
 
-## Tugas PPB (T)
+## Tugas PPB Notes App (Backend)
 Coded with express js framework and mongodb databases <br />
 App deployed on heroku <br />
 ```https://mynotesapi78.herokuapp.com/```
