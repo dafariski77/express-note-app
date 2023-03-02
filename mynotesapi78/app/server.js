@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // database connection
 mongoose.connect(
-  "mongodb://dafariski:pass123@ac-imhxlcf-shard-00-00.fnbjkvv.mongodb.net:27017,ac-imhxlcf-shard-00-01.fnbjkvv.mongodb.net:27017,ac-imhxlcf-shard-00-02.fnbjkvv.mongodb.net:27017/?ssl=true&replicaSet=atlas-1486j6-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "mongodb://dafariski:somepassword@ac-imhxlcf-shard-00-00.fnbjkvv.mongodb.net:27017,ac-imhxlcf-shard-00-01.fnbjkvv.mongodb.net:27017,ac-imhxlcf-shard-00-02.fnbjkvv.mongodb.net:27017/?ssl=true&replicaSet=atlas-1486j6-shard-0&authSource=admin&retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
